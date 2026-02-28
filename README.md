@@ -14,3 +14,7 @@ On the left side is the USB-C connector, going into the polyfuse, then into the 
 *Made in KiCad*
 ![pcb](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEyMzAyLCJwdXIiOiJibG9iX2lkIn19--739b4251a62233c70dc10884b5ee17d4c09a9169/image.png)
 ![pcb2](images/image.png)
+
+# Firmware
+*Written in CircuitPython*
+The Pico 2W connects to WiFi on boot and starts a HTTP server that exposes a simple webhook endpoint. When I press the button, it enters a short recording window and captures the raw pulse timings from the TSOP38238, then stores them in memory with an incrementing ID number. The IR LEDs are driven from GPIO5 using a 38kHz PWM carrier, and when a POST request is sent to `/play` with a JSON body like `{"id": 3}`, the Pico looks up that stored signal and replays it through the three IR transmitters. Everything runs locally on the Pico, so another computer on the same network can trigger appliances just by sending a simple HTTP request. This can also be easily plugged in to home automation services, or be modified to worth with MQTT, something I plan to do in the future.

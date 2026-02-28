@@ -3292,16 +3292,16 @@
 		(uuid "332dfa84-6dde-458a-b264-10ff2b09c8c7")
 	)
 	(junction
+		(at 77.47 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "629cd5eb-40ab-4db5-aaec-f83c79ac4375")
+	)
+	(junction
 		(at 160.02 60.96)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "642faac0-d953-42a9-a330-2ddc2b1bfe44")
-	)
-	(junction
-		(at 74.93 135.89)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6c51a72b-7c16-45b5-a1d8-97f0dc3bdacd")
 	)
 	(junction
 		(at 45.72 92.71)
@@ -3314,12 +3314,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7d8ceccd-202d-47ca-895b-17f079861ca1")
-	)
-	(junction
-		(at 74.93 143.51)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ea6d233-abaf-4de2-938a-f31b21bb88c3")
 	)
 	(junction
 		(at 57.15 134.62)
@@ -3338,6 +3332,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b449e80b-3402-457d-933d-0b29ee6bbaf9")
+	)
+	(junction
+		(at 77.47 143.51)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c4b0ee0d-d158-4a55-8c10-463b1a64a95d")
 	)
 	(junction
 		(at 82.55 64.77)
@@ -3529,16 +3529,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 135.89) (xy 80.01 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "23588d73-0db5-47bc-918c-69a662c59f26")
-	)
-	(wire
-		(pts
 			(xy 55.88 134.62) (xy 57.15 134.62)
 		)
 		(stroke
@@ -3669,6 +3659,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 135.89) (xy 82.55 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57736338-b837-4998-b8b1-c2a02f6b7f5c")
+	)
+	(wire
+		(pts
 			(xy 232.41 102.87) (xy 229.87 102.87)
 		)
 		(stroke
@@ -3779,6 +3779,16 @@
 	)
 	(wire
 		(pts
+			(xy 77.47 143.51) (xy 82.55 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e30a95c-6a16-4145-98f6-fbcff860dd69")
+	)
+	(wire
+		(pts
 			(xy 82.55 63.5) (xy 82.55 64.77)
 		)
 		(stroke
@@ -3789,7 +3799,7 @@
 	)
 	(wire
 		(pts
-			(xy 58.42 143.51) (xy 74.93 143.51)
+			(xy 58.42 143.51) (xy 77.47 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3909,16 +3919,6 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 143.51) (xy 80.01 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c34b710e-b969-48ed-a625-a986b19960d6")
-	)
-	(wire
-		(pts
 			(xy 58.42 144.78) (xy 55.88 144.78)
 		)
 		(stroke
@@ -4009,7 +4009,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 135.89) (xy 57.15 135.89)
+			(xy 57.15 135.89) (xy 77.47 135.89)
 		)
 		(stroke
 			(width 0)
@@ -4069,7 +4069,7 @@
 			)
 		)
 	)
-	(global_label "GP16"
+	(global_label "TSOPOUT"
 		(shape input)
 		(at 55.88 139.7 0)
 		(fields_autoplaced yes)
@@ -4081,7 +4081,7 @@
 		)
 		(uuid "386535dc-dd54-41ab-b71e-24b9e8455eb9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.8242 139.7 0)
+			(at 67.2714 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +4113,7 @@
 			)
 		)
 	)
-	(global_label "GP16"
+	(global_label "TSOPOUT"
 		(shape input)
 		(at 180.34 93.98 0)
 		(fields_autoplaced yes)
@@ -4125,7 +4125,7 @@
 		)
 		(uuid "9c1cbdbe-4d66-4778-b840-e6ef1931ed86")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 188.2842 93.98 0)
+			(at 191.7314 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4181,7 +4181,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 80.01 139.7 0)
+		(at 82.55 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4190,7 +4190,7 @@
 		(fields_autoplaced yes)
 		(uuid "07d4dbc7-b20a-4805-87fa-207c28a4d91f")
 		(property "Reference" "C4"
-			(at 83.82 138.4299 0)
+			(at 86.36 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4199,7 +4199,7 @@
 			)
 		)
 		(property "Value" "4.7µF"
-			(at 83.82 140.9699 0)
+			(at 86.36 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4208,7 +4208,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 80.9752 143.51 0)
+			(at 83.5152 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4217,7 +4217,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 139.7 0)
+			(at 82.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +4226,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 80.01 139.7 0)
+			(at 82.55 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4525,10 +4525,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cee47389-723f-492c-9d9a-6428c68a087a")
+			(uuid "cee47389-723f-492c-9d9a-6428c68a087b")
 		)
 		(pin "2"
-			(uuid "62c25792-a97d-403f-9003-1b2cb9687a19")
+			(uuid "62c25792-a97d-403f-9003-1b2cb9687a1a")
 		)
 		(instances
 			(project ""
@@ -5659,10 +5659,10 @@
 			)
 		)
 		(pin "1"
-			(uuid "cee47389-723f-492c-9d9a-6428c68a087a")
+			(uuid "cee47389-723f-492c-9d9a-6428c68a087c")
 		)
 		(pin "2"
-			(uuid "62c25792-a97d-403f-9003-1b2cb9687a19")
+			(uuid "62c25792-a97d-403f-9003-1b2cb9687a1b")
 		)
 		(instances
 			(project ""
@@ -5795,10 +5795,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "080cf9f6-49dd-4f21-981c-06513509a2fd")
+			(uuid "080cf9f6-49dd-4f21-981c-06513509a2fe")
 		)
 		(pin "1"
-			(uuid "d675f14b-eed2-4e28-8e31-84f5b72f2468")
+			(uuid "d675f14b-eed2-4e28-8e31-84f5b72f2469")
 		)
 		(instances
 			(project ""
@@ -6351,7 +6351,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 74.93 139.7 0)
+		(at 77.47 139.7 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6360,7 +6360,7 @@
 		(dnp no)
 		(uuid "e580c527-e178-4e61-baef-03f165d46eb8")
 		(property "Reference" "C3"
-			(at 71.12 138.4299 0)
+			(at 73.66 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6369,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 71.12 140.9699 0)
+			(at 73.66 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +6378,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 73.9648 143.51 0)
+			(at 76.5048 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +6387,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 74.93 139.7 0)
+			(at 77.47 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +6396,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 74.93 139.7 0)
+			(at 77.47 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
