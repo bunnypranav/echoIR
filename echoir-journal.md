@@ -42,3 +42,16 @@ At last, after all these considerations, my PCB is finally done! Future me will 
 
   
 
+# 3/1/2026 - Basic firmware finished  
+
+_Time spent: 3.0h_  
+
+I spent today finishing a basic prototype version of the firmware before I actually get the components and PCB.
+
+I started by getting the IR transmit and receive logic working., ghe TSOP starts recording on the press of the button, and saves the recorded content with a simple incremental ID. I added WiFi and a HTTP server. The idea was to send a POST request to the Pico with a signal ID in the body, and the board replays it. Right now, the signals are just stored in memory with incremental IDs.
+
+Eventually I may build a more feature rich dashboard and option to delete and rename the recorded signals. But for now, it is just a waiting game for the design review and component delivery!
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6MTEzMTI0LCJwdXIiOiJibG9iX2lkIn19--4bb9188eeb854b1d472a824ec91a3731d827232d/image.png)
+  
+
