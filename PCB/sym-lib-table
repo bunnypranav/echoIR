@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TSOP38238")(type "KiCad")(uri "${KIPRJMOD}/SymbolFootprints/TSOP38238/TSOP38238.kicad_sym")(options "")(descr ""))
+  (lib (name "RXEF050")(type "KiCad")(uri "${KIPRJMOD}/SymbolFootprints/RXEF050/FUS_RXEF050_TYCO_TYC.kicad_sym")(options "")(descr ""))
+)

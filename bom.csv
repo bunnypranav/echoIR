@@ -1,0 +1,19 @@
+Name,Purpose,Cost (USD),Qty,Total (USD),Link,Distributor
+Printing legion shipping,Shipping cost for the 3D printed base from printing legion; domestic shipping within India,$3.00,1,$3.00,-,Shiprocket
+33-ohm 1206 Resistor,LED resistor; 15 cause SMD is hard and I'm a beginner at soldering,$0.02,15,$0.24,https://robu.in/product/crcw120633r0fkea-vishay-smd-chip-resistor-33-ohm-%c2%b1-1-250-mw-1206-3216-metric-thick-film-general-purpose/,Robu
+LionCircuits PCB Fabrication,PCB Fabrication,$14.06,1,$14.06,https://lioncircuits.com/,LionCircuits
+RoboticsDNA Shipping,Standard cheapest shipping cost,$0.76,1,$0.76,-,RoboticsDNA
+Robu Shipping,Standard cheapest shipping cost,$0.55,1,$0.55,-,Robu
+Tactile Switch 6mm,Controlling mode,$0.07,1,$0.07,https://roboticsdna.in/product/tact-switch-2-pieces/,RoboticsDNA
+10k 1206 Resistor,MOSFET resistor,$0.55,1,$0.55,https://roboticsdna.in/product/10k%cf%89-thick-film-smd-resistor-1206-%c2%b15-tolerence-100-pcs/,RoboticsDNA
+100-ohm 1206 Resistor,LED power resistor,$0.55,1,$0.55,https://roboticsdna.in/product/100-ohm-1-4w-1206-surface-mount-chip-resistor-pack-of-100/,RoboticsDNA
+AO3400A,MOSFET,$0.59,1,$0.59,https://roboticsdna.in/product/ao3400-30v-5-8a-n-channel-mosfet-sot-23-pack-of-5/,RoboticsDNA
+USB C receptacle 31-M-33,USB power,$0.26,1,$0.26,https://robu.in/product/type-c-31-m-33-hroparts-3a-1-right-angle-2p-female-30%e2%84%8380%e2%84%83-type-c-plugin-usb-connectors-rohs/,Robu
+RXEF050 Polyfuse,Fuse,$0.13,1,$0.13,https://robu.in/product/rxef050-littelfuse-rxef050-fuse-ptc-reset-72v-500ma-radial/,Robu
+IR Tx Led PT-333C-A,IR Transmission,$0.10,3,$0.30,https://roboticsdna.in/product/ir-tx-led-pt-333c-a-white2-pcs/,RoboticsDNA
+10uF radial Capacitor,Decoupling,$0.39,1,$0.39,https://roboticsdna.in/product/10uf-63v-capacitor-5-pieces/,RoboticsDNA
+TSOP38238,IR reciever for training MCU,$0.39,1,$0.39,https://roboticsdna.in/product/ir-receiver-diode-tsop38238/,RoboticsDNA
+4.7uF 1206 Capacitor,Decoupling,$0.39,1,$0.39,https://roboticsdna.in/product/4-7uf-1206-surface-mount-multilayer-ceramic-capacitor-pack-of-30/,RoboticsDNA
+100nF 1206 Capacitor,Decoupling,$0.66,1,$0.66,https://roboticsdna.in/product/100nf-1206-surface-mount-multilayer-ceramic-capacitor-pack-of-30/,RoboticsDNA
+1x20 headers for Pico,"THT mounting Pi, I am beginner at soldering",$0.12,2,$0.24,https://robu.in/product/ds1021-09-1x20sf1-a3-0-b6-0-b-connfly-1x20-pin-2-54mm-pin-header-v-t-type-h2-0mm/,Robu
+RaspberryPi Pico 2 W,Main MCU and Wifi connectivity,$8.12,1,$8.12,https://robu.in/product/raspberry-pi-pico-2-w/,Robu
